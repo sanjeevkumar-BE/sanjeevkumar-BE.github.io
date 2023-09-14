@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <script>
+        function sanju(){
+            window.open("Resume-docs.pdf");
+        }
+    </script>
+    <style>
+        .skill-bg{
+            background-image: url(img/pexels-tyler-lastovich-1616516.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .bg{
+            background-color: rgb(243, 232, 74);
+            
+        }
+        ul li a{
+            text-decoration: none;
+            font-family: arial;
+            font-weight: 500;
+        }
+        li{
+            list-style-type: none;
+            display: inline-flex;
+            padding: 1%;
+            margin-top: 4vh;  
+        }
+        li:hover{
+            background-color: yellow;
+            
+        }
+        p{
+            text-align: center;
+        }
+        .bw{
+            background-color: rgb(236, 166, 233);
+            color: white;
+        }
+        .photo{
+            height: 260px;
+            width: 300px;
+            
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        .fill{
+            width: 100%;
+            border-radius: 700px;
+            box-shadow: 10px -10px 10px -10px rgba(0, 0, 0, 0.5);
+        }
+        .about-head{
+            margin-top: 10px;
+            text-align: center;
+        }
+        #home{
+           position: relative;
+
+        }
+        .soft p{
+            color: red;
+        }
+        
+        
+        
+        .bor{
+            border: 0px solid black;
+        }
+        .con{
+            height: 550px;
+        }
+        .btn{
+            width: 200px;
+        }
+        #me{
+            scroll-behavior: smooth;
+        }
+        .logo-img{
+            height: 250px;
+            width: 250px;
+            margin: 0 auto;
+        }
+        #skill{
+            padding: 2%;
+            margin-bottom: 100px;
+        }
+        .full{
+            width: 100%;
+            border-radius: 2px;
+        }
+        .full:hover{
+            box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+        }
+        /*skillset skill sec*/
+        .skillset{
+            height: 280px;
+        }
+        .foot-box{
+            height: 230px;
+            background-color: #4b6584;
+            color: white;
+        }
+        .mar-10{
+            margin-top: 10px;
+        }
+        .box-1{
+            height: 30px;
+            width: 30px;
+            padding: 1%;
+        }
+        .social{
+            display: flex;
+        }
+        .container-fluid{
+           background-color: pink;
+            
+        }
+        .nav-brand{
+            font-size: large;
+        }
+
+        @media (min-width:1024px){
+            .btn1{
+                margin-top: 30px;
+            }
+            .content{
+              background-color: white;  
+            }
+            .soft{
+                margin-top: 100px;
+            }
+            .social{
+                margin-left: 130px;
+
+            }
+            .foot-box{
+                height: 140px;
+            }
+        }
+        .social{
+            justify-content:center;
+        }
+        .card{
+            border: none;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 5px;
+            background-color: white;
+            margin-top: 5px;
+        }
+        .cen{
+            text-align: center;
+        }
+        @media (max-width:768px){
+            .maxx{
+                margin-top: 0;
+            }
+            .yellow{
+                display: none;
+            }
+           
+            
+        }
+        #project{
+            
+           
+            color: navy;
+            padding: 1%;
+        }
+       
+       
+        
+            
+        
+    </style>
+</head>
+<body>
+    <!--container-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#"><p class="display-2">Sanjeev</p></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#me">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#skill">SKILLS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#project">PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="row"><div class="col-12">
+            <div id="me">
+                <div class="content">
+                  
+            <h3 class="about-head">About me</h3>
+        
+        
+            <div class="row">
+                <div class="col-sm con">
+                    <p style="margin-top: 6vh;">Hi, I am   <span style="color: dodgerblue;">M.sanjeevkumar B.E.,</span></p>
+                    <p>A passionate and driven <b>SOFTWARE DEVELOPER</b> on a journey to turn my coding aspirants into reality.</p>
+                    <div class="photo">
+                        <img src="img/IMG_7524.jpg" alt="myImage" class="img-fluid fill">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="soft">
+                        <p style="font-size: large; color: black;">Who i am ?</p>
+                    <p>Web Developer</p>
+                    <p>Engineering Graduate</p>
+                    <p>Tech Enthusiast</p>
+                    <p>Self-Learner</p>
+                    
+                </div>
+                    <div class="btn1">
+                    <center><a href="#contact"><button type="button" class="btn btn-primary">Hire me</button></a></center>
+                    <br>
+                    <center><button type="button" class="btn btn-success" onclick="sanju()">Download CV</button></center>
+                </div>
+                </div>
+            </div>
+            </div>
+        <br>
+        
+        <!--header e-->
+       
+    </div>
+    </div>
+     <!--skills sec starts-->
+     <div class="skill-bg">
+     <div id="skill">
+        <p class="display-2">My Skills</p>
+        <p style="color: navy;">Learning never exhaust the mind</p>
+       <div class="row">
+        <div class="col-sm">
+            <div class="card full" style="width: 18rem;">
+                <img class="card-img-top" src="img/java.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <center><h5 class="card-title">Java(Intermediate)</h5></center>
+                  <p class="card-text">I possess intermediate level proficiency in java.</p>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card full" style="width: 18rem;">
+                <img class="card-img-top" src="img/php.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <center><h5 class="card-title">Php(Intermediate)</h5></center>
+                  <p class="card-text">Currently learning php for backend,
+                    with mysql.
+                  </p>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card full" style="width: 18rem;">
+                <img class="card-img-top" src="img/sql.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <center><h5 class="card-title">Sql(Intermediate)</h5></center>
+                  <p class="card-text">Good understanding of RDBMS,Some experience with it.</p>
+                
+                </div>
+              </div>
+        </div>
+       </div>
+       <br>
+       <div class="row">
+        <div class="col-sm">
+            <div class="card full" style="width: 18rem;">
+                <img class="card-img-top" src="img/html1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <center><h5 class="card-title">HTML(Intermediate)</h5></center>
+                  <p class="card-text">Creating web pages using HTML markup language.</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card full" style="width: 18rem;">
+                <img class="card-img-top" src="img/css1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <center><h5 class="card-title">CSS(Intermediate)</h5></center>
+                  <p class="card-text">Styling web content with CSS for visual appeal.
+                  </p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card full" style="width: 18rem;">
+                <img class="card-img-top" src="img/js.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <center><h5 class="card-title">Javascript(Intermediate)</h5></center>
+                  <p class="card-text">Adding interactivity and functionality to web pages.</p>
+                 
+                </div>
+              </div>
+        </div>
+       </div>
+     </div>
+        <!--skills ends-->
+        <div class="img">
+            <img src="img/boy on graduation-bro.png" alt="" srcset="" class="img-fluid">
+        </div>
+        <!--projects starts-->
+        <div id="project">
+            <p class="display-2">My Projects</p>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card full" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Screenshot (16).png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title cen">Students Mark Reg</h5>
+                          <p class="card-text">"PHP MySQL CRUD: Create, Read, Update, Delete operations for data."</p>
+                        </div>
+                        
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Html,Css,Js,Php,Mysql</li>
+                          
+                        </ul>
+                        <div class="card-body">
+                          <a href="https://github.com/sanjeevkumar-BE/Marks_Reg_Form.git" class="card-link" target="_blank">Github</a>
+                          <a href="#" class="card-link">Video</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card full" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Screenshot (17).png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title cen">To-Do-App</h5>
+                          <p class="card-text">"PHP MySQL CRUD: Create, Read, Update, Delete operations for data."</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Html,Css,Js,Php,Mysql</li>
+                          
+                        </ul>
+                        <div class="card-body">
+                          <a href="https://github.com/sanjeevkumar-BE/to-do-php.git" class="card-link">Github</a>
+                          <a href="#" class="card-link">Video</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card full" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Screenshot (19).png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title cen">Portfolio</h5>
+                          <p class="card-text">"Beginner's portfolio showcasing creativity,skills,and growth."</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Html,Css,Js,bootstrap-5</li>
+                          
+                        </ul>
+                        <div class="card-body">
+                          <a href="https://github.com/sanjeevkumar-BE/sanjeevkumar-BE.github.io.git" class="card-link">Github</a>
+                          <a href="#" class="card-link">Video</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!--project ends-->
+        <!--contact starts-->
+        <div id="contact">
+            <div class="row">
+                
+                <div class="col-sm" style="margin-top: 20px;">
+                    <center><p class="display-4">Do You Hire Me?</p></center>
+                    <center><p>Please email me at,</p></center>
+                    <center><span style="color: red;"><p class="h3">sanjeevsnv7@gmail.com</p></span></center>
+                </div>
+            </div>
+            <br><br>
+            <div class="row bor foot-box">
+                <div class="col-sm">
+                    <center><p class="mar-10">Sanjeevkumar &copy; 2023</p></center>
+                </div>
+                <div class="col-sm">
+                    <center><p class="mar-10">Coimbatore,Tamilnadu,India</p></center>
+                    <center><p >Pincode:638703</p></center>
+                    <center><p >Mobile:6380798242</p></center>
+                </div>
+                <div class="col-sm cont">
+                        
+                        <div class="social mar-10 maxx">
+                        <div class="box-1"><a href="https://github.com/sanjeevkumar-BE" target="_blank"><img src="social/1964417_github_logo_media_social_icon.png" alt="" srcset="" style="width: 100%;"></a></div>
+                        <div class="box-1"><a href="https://www.linkedin.com/in/sanjeevkumar-m-031617276/" target="_blank"><img src="social/5296501_linkedin_network_linkedin logo_icon.png" alt="" srcset="" style="width: 100%;"></a></div>
+                        <div class="box-1"><a href=""><img src="social/5296516_tweet_twitter_twitter logo_icon.png" alt="" srcset="" style="width: 100%;"></a></div>
+                        <div class="box-1"><a href=""><img src="social/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt="" srcset="" style="width: 100%;"></a></div>
+                        <div class="box-1"><a href="https://www.instagram.com/saju._xo/" target="_blank"><img src="social/5296765_camera_instagram_instagram logo_icon.png" alt="" srcset="" style="width: 100%;"></a></div>
+                   
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--contact ends-->
+    </div>
+</div>
+    <!--bootstrap as-->
+    <script src="/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="jquery.js"></script>
+</body>
+</html>
