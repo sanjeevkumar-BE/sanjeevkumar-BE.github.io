@@ -157,7 +157,7 @@ p{
     color: navy;
     padding: 1%;
 }
-@media (min-width:768px)and(max-width:1024px){
+@media ((min-width:768px) and (max-width:1024px)){
     .foot-box{
         height: 140px;
     }
