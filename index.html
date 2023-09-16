@@ -9,6 +9,18 @@
         function sanju(){
             window.open("Resume-docs.pdf");
         }
+        const text="Currently i am working on various projects.These are updated soon.";
+        const typingSpeed=100;
+        const typingElement=document.getElementById("type");
+        let charIndex=0;
+        function typeText(){
+          if(charIndex<text.length){
+              typingElement.innerHTML+=text.charAt(charIndex);
+              charIndex++;
+              setTimeout(typeText,typingSpeed);
+          }
+        }
+        typeText();
     </script>
     <link rel="stylesheet" href="style.css">  
 </head>
@@ -217,7 +229,7 @@
                 </div>
             </div>
         </div>
-        <p>Currently i am working on various projects.These are updated soon.</p>
+        <p id="type"></p>
          </div>
         <!--project ends-->
         <!--contact starts-->
