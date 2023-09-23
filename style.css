@@ -85,6 +85,8 @@ p{
     transition: 2s;
     background-color: black;
     color: white;
+    transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 /*skillset skill sec*/
 .skillset{
